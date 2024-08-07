@@ -1,4 +1,5 @@
 # All List Functions
+# Mid term Preprations
 
 qavi = ["Qavi","Aliza","Hamdan","Neha"]
 print(qavi)
@@ -36,28 +37,28 @@ length = len(num)
 print(length)
 
 
-# list2 = ["a","b","C"]
-# print(list2)
-# index = 0
-# while index < len(list2):
-#     if list2[index]=="b":
-#         list2[index]="c"
-#     index+=1
-# print(list2)
+list2 = ["a","b","C"]
+print(list2)
+index = 0
+while index < len(list2):
+    if list2[index]=="b":
+        list2[index]="c"
+    index+=1
+print(list2)
 
 
 
-# list1 = ["A", "B", "C"]
-# print(list1)
-# for index, value in enumerate(list1):
-#     if value == "B":
-#         list1[index] = "F"
-# print(list1)
+list1 = ["A", "B", "C"]
+print(list1)
+for index, value in enumerate(list1):
+    if value == "B":
+        list1[index] = "F"
+print(list1)
 
-# list3 = ["Q","A","V","I"]
-# print(list3)
-# list3 = ["R" if item == "Q" else item for item in list3]
-# print(list3)
+list3 = ["Q","A","V","I"]
+print(list3)
+list3 = ["R" if item == "Q" else item for item in list3]
+print(list3)
 
 list3 = ["Q", "A", "V", "I"]
 print(list3)
